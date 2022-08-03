@@ -16,5 +16,7 @@ return [
     new Route('/user/first/:n', 'user', 'first'),
     new Route('/user/:id/:key', 'user', 'info'),
 
+    new Route('/page', 'page', 'act'),
+
 ];
 	
