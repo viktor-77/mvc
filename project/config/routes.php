@@ -18,5 +18,8 @@ return [
 
     new Route('/page', 'page', 'act'),
 
+    new Route('/product/all', 'product', 'all'),
+    new Route('/product/:n', 'product', 'show'),
+
 ];
 	
