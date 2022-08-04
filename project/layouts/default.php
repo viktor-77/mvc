@@ -6,24 +6,24 @@
     <link rel="stylesheet" href="/project/webroot/style.css">
 </head>
 <body>
-<header>
-    хедер сайта
-</header>
+<!--<header>-->
+<!--    хедер сайта-->
+<!--</header>-->
 <div class="container">
-    <aside class="sidebar left">
-        левый сайдбар
-    </aside>
+<!--    <aside class="sidebar left">-->
+<!--        левый сайдбар-->
+<!--    </aside>-->
     <main>
         <?= $content ?>
     </main>
-    <aside class="sidebar right">
-        правый сайдбар
-    </aside>
+<!--    <aside class="sidebar right">-->
+<!--        правый сайдбар-->
+<!--    </aside>-->
 </div>
-<img src="/project/webroot/download.png">
-<footer>
-    футер сайта
-</footer>
+<!--<img src="/project/webroot/download.png">-->
+<!--<footer>-->
+<!--    футер сайта-->
+<!--</footer>-->
 </body>
 </html>
 

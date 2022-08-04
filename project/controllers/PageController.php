@@ -3,6 +3,9 @@
 namespace Project\Controllers;
 
 use Core\Controller;
+use \Project\Models\Page;
+
+// подключаем нашу модель
 
 class PageController extends Controller
 {
@@ -32,4 +35,14 @@ class PageController extends Controller
         return $this->render('page/show', [$this->pages[$params['id']]['text']]);
     }
 
+    public function test()
+    {
+        $page = new Page; // создаем объект модели
+
+        $data = $page->getById(3); // получим запись с id=3
+        print_r($data);
+
+//        $data = $page->getByRange(2, 5); // записи с id от 2 до 5
+//        print_r($data);
+    }
 }
