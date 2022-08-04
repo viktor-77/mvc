@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8">
     <title><?= $title ?></title></title>
+    <link rel="stylesheet" href="/project/webroot/style.css">
 </head>
 <body>
 <header>
@@ -19,6 +20,7 @@
         правый сайдбар
     </aside>
 </div>
+<img src="/project/webroot/download.png">
 <footer>
     футер сайта
 </footer>
