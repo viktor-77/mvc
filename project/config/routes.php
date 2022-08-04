@@ -17,6 +17,7 @@ return [
     new Route('/user/:id/:key', 'user', 'info'),
 
     new Route('/page', 'page', 'act'),
+    new Route('/page/:id', 'page', 'show'),
 
     new Route('/product/all', 'product', 'all'),
     new Route('/product/:n', 'product', 'show'),

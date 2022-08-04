@@ -7,7 +7,7 @@ use Core\Controller;
 class ProductController extends Controller
 {
     private $products;
-    public $title = 'title';
+    public $title = 'product';
 
     public function __construct()
     {

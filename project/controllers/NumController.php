@@ -8,6 +8,8 @@ namespace Project\Controllers;
 
 class NumController
 {
+    public $title = 'num';
+
     public function sum($params)
     {
         echo $params['n1'] + $params['n2'] + $params['n3'];

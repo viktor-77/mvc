@@ -11,6 +11,8 @@ use \Core\Controller;
 
 class TestController extends Controller
 {
+    public $title = 'test';
+
     public function act1()
     {
         echo '1';

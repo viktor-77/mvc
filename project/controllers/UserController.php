@@ -7,6 +7,7 @@ use http\Params;
 class UserController
 {
     private $users;
+    public $title = 'user';
 
     public function __construct()
     {
